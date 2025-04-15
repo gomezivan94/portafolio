@@ -1,0 +1,1 @@
+export {default as CvIvanGomez} from './cv/cvIvanGomez.pdf'
