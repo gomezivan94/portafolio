@@ -1,0 +1,35 @@
+.profilePic{
+    border-radius: 50%;
+    box-shadow: 10px 10px 16px rgb(0, 0, 0);
+    width: 40%;
+    height: 40%;
+}
+
+.aboutText{
+    font-size: 20px;
+}
+
+.aboutSpan{
+    color: #ffe4c4;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.titleName{
+    font-size: 56px;
+    color: #fff;
+}
+
+.titleLastName{
+    color: #ffe4c4;
+    font-size: 72px;
+}
+
+.aboutText{
+    color: #fff;
+}
+
+.titlePresentation{
+    font-size: 72px;
+    color: #fff;
+}

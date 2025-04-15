@@ -1,0 +1,11 @@
+body{
+    background: -webkit-linear-gradient(180deg, #101325, #1c1f38, #101426)  ;
+    background-position: center;
+    background-size: cover;
+}
+
+.App{
+    font-size: 32px;
+    color: #fff;
+}
+

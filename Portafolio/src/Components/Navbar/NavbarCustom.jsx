@@ -4,7 +4,7 @@ import './NavbarCustom.css'
 function NavbarCustom() {
     return (
         <>
-        <Navbar className="Navcustom" data-bs-theme="dark">
+        <Navbar className="Navcustom p-5" data-bs-theme="dark">
           <Container>
             <Navbar.Brand href="#home">Ivan Gomez Dev</Navbar.Brand>
             <Nav>
