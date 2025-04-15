@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import {Container, Row, Col} from 'react-bootstrap/';
 import {  ProfilePicture, TitleAboutSection } from '../../Components'
-import './about.css'
+import './About.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { BsGithub, BsLinkedin, BsSaveFill } from "react-icons/bs";
