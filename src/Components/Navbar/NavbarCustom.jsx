@@ -1,21 +1,22 @@
-import { Container, Nav, Navbar } from "react-bootstrap"
+import { Container, Nav, Navbar  } from "react-bootstrap"
 import './NavbarCustom.css'
 
 function NavbarCustom() {
     return (
-        <>
-        <Navbar className="Navcustom p-5" data-bs-theme="dark">
-          <Container>
-            <Navbar.Brand href="#home">Ivan Gomez Dev</Navbar.Brand>
-            <Nav>
-              <Nav.Link href="#about">About Me</Nav.Link>
-              <Nav.Link href="#skills">Skills</Nav.Link>
-              <Nav.Link href="#projects">Projects</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
-            </Nav>
-          </Container>
-        </Navbar>
-        </>
+      <Navbar expand="lg" className="Navcustom sticky-top" data-bs-theme="dark">
+  <Container>
+    <Navbar.Brand href="#about"><span className="brandName">Ivàn Gomez</span><span>Dev</span></Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="ms-auto">
+        <Nav.Link href="#about">Sobre mí</Nav.Link>
+        <Nav.Link href="#skills">Habilidades</Nav.Link>
+        <Nav.Link href="#projects">Proyectos</Nav.Link>
+        <Nav.Link href="#contact">Contacto</Nav.Link>
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
     )
 }
 

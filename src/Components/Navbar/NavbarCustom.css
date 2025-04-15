@@ -1,3 +1,11 @@
 .Navcustom {
     background-color: #0000007c;
+    color: #fff;
+    font-size: 20px;
+}
+
+.brandName{
+    font-size: 32px;
+    color: #ffe4c4;
+    font-weight: bold;
 }
