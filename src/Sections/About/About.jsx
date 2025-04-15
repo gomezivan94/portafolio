@@ -14,7 +14,7 @@ function About() {
   return (
     <>
     <Container className="container-fluid" id='about'>
-      <Row className="text-center align-items-center justify-content-center mt-5" >
+      <Row className="text-center align-items-center justify-content-center" >
         <Col xs="12" md="4" xl="6" className='py-5' data-aos="fade-down" data-aos-easing="linear"
         data-aos-duration="1000">
           <ProfilePicture/>
