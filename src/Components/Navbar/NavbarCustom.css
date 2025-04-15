@@ -1,7 +1,8 @@
 .Navcustom {
-    background-color: #0000007c;
+    background-color: #00000077;
     color: #fff;
     font-size: 20px;
+    backdrop-filter: blur(40px);
 }
 
 .brandName{

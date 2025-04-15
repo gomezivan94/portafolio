@@ -4,7 +4,7 @@ import './NavbarCustom.css'
 function NavbarCustom() {
     return (
       <Navbar expand="lg" className="Navcustom sticky-top" data-bs-theme="dark">
-  <Container>
+    <Container>
     <Navbar.Brand href="#about"><span className="brandName">Ivàn Gomez</span><span>Dev</span></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">

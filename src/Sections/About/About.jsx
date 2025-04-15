@@ -26,7 +26,7 @@ function About() {
             </Col>
           </Row>
         </Col>
-        <Col xs="12" md="4" xl="6" data-aos="fade-up" data-aos-easing="linear"
+        <Col xs="12" md="4" xl="6" data-aos="fade-left" data-aos-easing="linear"
         data-aos-duration="1000">
           <TitleAboutSection/>
         </Col>
