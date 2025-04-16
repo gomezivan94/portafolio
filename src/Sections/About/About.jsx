@@ -15,7 +15,7 @@ function About() {
     <>
     <Container className="container-fluid" id='about'>
       <Row className="text-center align-items-center justify-content-center" >
-        <Col xs="12" md="4" xl="6" className='' data-aos="fade-down" data-aos-easing="linear"
+        <Col xs="12" md="4" xl="6" data-aos="fade-down" data-aos-easing="linear"
         data-aos-duration="1000">
           <ProfilePicture/>
           <Row className='d-flex align-items-center justify-content-center'>
@@ -26,7 +26,7 @@ function About() {
             </Col>
           </Row>
         </Col>
-        <Col xs="12" md="4" xl="6" data-aos="fade-left" data-aos-easing="linear"
+        <Col className='text-center align-items-center justify-content-center' xs="12" md="4" xl="6" data-aos="fade-left" data-aos-easing="linear"
         data-aos-duration="1000">
           <TitleAboutSection/>
         </Col>
