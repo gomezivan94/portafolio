@@ -2,7 +2,7 @@ import './App.css'
 import './Components/Navbar/NavbarCustom.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavbarCustom } from './Components'
-import { About } from './Sections';
+import { About, Skills } from './Sections';
 
 
 
@@ -12,6 +12,7 @@ function App() {
     <>
     <NavbarCustom/>
     <About/>
+    <Skills/>
     </>
   )
 }

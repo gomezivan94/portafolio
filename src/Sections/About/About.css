@@ -1,3 +1,10 @@
+#about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
 .profilePic{
     border-radius: 50%;
     box-shadow: 10px 10px 16px rgb(0, 0, 0);
@@ -42,4 +49,10 @@
 
 .socialIcon:hover{
     transform: scale(1.2);
+}
+
+.downloadCV{
+    text-align: center;
+    display: inline-flex; 
+    height: auto;
 }
